@@ -8,6 +8,8 @@ const s4 = "bread";
 const s5 = "and";
 
 // Concatena las variables de cadena en una sola nueva cadena
+const resultado = s1 + " " + s2 + " " + s3 + " " + s4 + " " + s5 + " " + s3 + " " + s2 + " " + s1 + " " + s4;
+console.log (resultado);
 
 
 // Imprime la cadena concatenada
@@ -25,7 +27,13 @@ const part2 = "script";
 
 
 // Imprime la cadena con el formato camelCase
+const inicioPart1 = part1.slice(0, -1)
+const ultimaLetra1 = part1.slice(-1).toUpperCase();
+const inicioPart2 = part2.slice(0, -1);
+const ultimaLetra2 = part2.slice(-1).toUpperCase();
 
+const meGusta = inicioPart1 + ultimaLetra1 + inicioPart2 + ultimaLetra2;
+console.log (meGusta);
 
 
 
@@ -38,7 +46,8 @@ const billTotal = 84;
 
 
 // Imprime el valor de tipAmount
-
+const porcentaje = billTotal * 15 / 100;
+console.log (porcentaje);
 
 
 
@@ -50,7 +59,8 @@ const billTotal = 84;
 
 
 // Imprime el número aleatorio generado
-
+const numero = Math.floor(Math.random() * 10) + 1;
+console.log(numero);
 
 
 /*******************************************
@@ -74,3 +84,10 @@ const expression5 = !a || !b;
 const expression6 = !(a || b);
 
 const expression7 = a && a;
+console.log(expression1);
+console.log(expression2);
+console.log(expression3);
+console.log(expression4);
+console.log(expression5);
+console.log(expression6);
+console.log(expression7);
