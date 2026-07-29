@@ -1,5 +1,5 @@
 /*******************************************
-    Iteration 1.1 | Tongue Twister
+    Iteración 1.1 | Trabalenguas
 *******************************************/
 const s1 = "Fred";
 const s2 = "fed";
@@ -7,60 +7,60 @@ const s3 = "Ted";
 const s4 = "bread";
 const s5 = "and";
 
-// Concatenate the string variables into one new string
+// Concatena las variables de cadena en una sola nueva cadena
 
 
-// Print out the concatenated string
+// Imprime la cadena concatenada
 
 
 
 
 /*******************************************
-    Iteration 1.2 | Camel Tail
+    Iteración 1.2 | Cola de camello
 *******************************************/
 const part1 = "java";
 const part2 = "script";
 
-// Convert the last letter of part1 and part2 to uppercase and concatenate the strings
+// Convierte la última letra de part1 y part2 a mayúsculas y concatena las cadenas
 
 
-// Print the cameLtaiL-formatted string
+// Imprime la cadena con el formato camelCase
 
 
 
 
 /*******************************************
-    Iteration 2.1 | Calculate Tip
+    Iteración 2.1 | Calcular propina
 *******************************************/
 const billTotal = 84;
 
-// Calculate the tip (15% of the bill total)
+// Calcula la propina (15% del total de la cuenta)
 
 
-// Print out the tipAmount
+// Imprime el valor de tipAmount
 
 
 
 
 /*******************************************
-    Iteration 2.2 | Generate Random Number
+    Iteración 2.2 | Generar número aleatorio
 *******************************************/
 
-// Generate a random integer between 1 and 10 (inclusive)
+// Genera un número entero aleatorio entre 1 y 10 (inclusive)
 
 
-// Print the generated random number
+// Imprime el número aleatorio generado
 
 
 
 /*******************************************
-    Iteration 3.1 | Booleans
+    Iteración 3.1 | Booleanos
 *******************************************/
 
 const a = true;
 const b = false;
 
-// Try and guess the output of the below expressions first and write your answers down:
+// Intenta adivinar primero el resultado de las siguientes expresiones y anota tus respuestas:
 const expression1 = a && b;
 
 const expression2 = a || b;
